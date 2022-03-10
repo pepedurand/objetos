@@ -1,4 +1,4 @@
-function cliente(nome, cpf, email, saldo) {
+function Cliente(nome, cpf, email, saldo) {
     this.nome = nome
     this.cpf = cpf
     this.email = email
@@ -7,3 +7,7 @@ function cliente(nome, cpf, email, saldo) {
         this.saldo += valor
     }
 }
+
+const andre = new Cliente('Andre', '11111111', 'andre@gmail.com', 100)
+
+console.log (andre)
