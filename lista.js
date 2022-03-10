@@ -28,3 +28,6 @@ const clientes = [
 const listaDepedentes = [...clientes[0].dependentes, ...clientes[1].dependentes]
 
 console.log (listaDepedentes)
+
+//JSON.parse(): converte JSON para um objeto JavaScript;
+//JSON.stringify(): converte um objeto JavaScript para o formato JSON.
